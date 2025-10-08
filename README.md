@@ -213,6 +213,12 @@ Security: SSL for safe payments and bookings.
 
 Expected Outcomes: Improved brand awareness, streamlined reservations, and greater community involvement through digital promotion of events and memberships.
 
+REFERENCES:
+Unsplash .Available at:https://unsplash.com/. [Accessed 25 August 2025].
+ChatGpt.AI Tool. Available at:https://chatgpt.com/c/68346b5d-aae8-8003-b449-026b0e2abf97  [Accessed 23 August 2025].
+Github Desktop.Available at:https://github.com/Mbalenhle24/M-s-Beauty-Bar-website.git . [Accessed 26 September 2025].
+
+
 Mt github respritory link:https://github.com/Mbalenhle24/M-s-Beauty-Bar-website.git
 
 
