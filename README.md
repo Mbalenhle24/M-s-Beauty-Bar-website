@@ -148,6 +148,71 @@ Week 10: Post-launch evaluation.
 
 Expected Outcomes: Increased bookings, better brand recognition, and a stronger youth following.
 
+Proposal 2: Coffee & Study Hub – M’s Study Café
+Organisation Overview
+
+Name: M’s Study Café
+History: Founded in 2024, M’s Study Café addresses the growing need for safe, affordable, and tech-enabled study and co-working spaces in Johannesburg. It blends a café environment with a study hub, offering free Wi-Fi, computers, and library access.
+
+Mission and Vision
+
+Mission: To provide an affordable, peaceful, and resourceful space for productivity and collaboration.
+Vision: To become Johannesburg’s leading study hub, empowering future professionals and scholars.
+
+Target Audience
+
+Students, freelancers, and young professionals aged 18–35 in need of affordable, tech-friendly study/work spaces.
+
+Current Analysis
+
+Currently, awareness of the café is limited to local communities, with no centralized online system for reservations, events, or membership. This limits customer reach and engagement.
+
+Goals and Objectives
+
+Enhance visibility of café services.
+
+Streamline membership sign-ups and desk reservations online.
+
+Promote events and workshops to strengthen community engagement.
+
+Proposed Website Features & Functionality
+
+Home Page: Café concept with imagery.
+
+Menu Page: Food/drink options + student discounts.
+
+Facilities Page: Highlight study resources (Wi-Fi, desktops, library).
+
+Reservations/Membership: Online desk booking and subscription plans.
+
+Events Page: Promote study groups, networking events, and workshops.
+
+Contact Page: Enquiry form, map, opening hours.
+
+Design Aesthetic
+
+Minimalist and cozy, using neutral tones (browns, beiges, and greens) to evoke a café atmosphere. Simple fonts for readability, mobile-friendly structure.
+
+Wireframes
+
+Homepage: Hero image of café + highlights.
+
+Facilities Page: Icons/text for features (Wi-Fi, library).
+
+Booking Page: Reservation calendar + membership form.
+
+Technical Requirements
+
+Tech Stack: HTML5, CSS3, JavaScript; integration with booking system (e.g., Calendly or custom plugin).
+
+SEO: Optimize for “study café Johannesburg.”
+
+Hosting: CMS (WordPress) with database for memberships.
+
+Security: SSL for safe payments and bookings.
+
+Expected Outcomes: Improved brand awareness, streamlined reservations, and greater community involvement through digital promotion of events and memberships.
+
 Mt github respritory link:https://github.com/Mbalenhle24/M-s-Beauty-Bar-website.git
 
 
