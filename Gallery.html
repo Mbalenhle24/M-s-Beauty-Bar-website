@@ -9,49 +9,186 @@
 <body>
 
   <!-- Header Section -->
-  <header>
-    <nav>
-      <a href="index.html" class="logo">M's Beauty Bar</a>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <i class="fas fa-spa"></i> M's Beauty Bar
+            </a>
 
-      <div class="nav-links" id="nav-links">
-        <a href="services.html">Services</a>
-        <a href="gallery.html" class="active">Gallery</a>
-        <a href="about.html">About Us</a>
-        <a href="contact.html">Contact</a>
-      </div>
+            <div class="nav-links" id="nav-links">
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About Us</a>
+                <a href="Testimonial.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
 
-      <button class="menu-btn" id="menu-btn">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-      </button>
-    </nav>
-  </header>
+            <button class="menu-btn" id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
 
   <main>
+    <!-- Gallery Hero Section -->
+    <section class="gallery-hero">
+      <div class="gallery-hero-content">
+        <h1>Our Beauty Gallery</h1>
+        <p>Explore our stunning transformations and luxurious treatments that help our clients shine with confidence.</p>
+      </div>
+    </section>
+
+    <!-- Gallery Filter Section -->
+    <section class="gallery-filter">
+      <h2>Filter by Category</h2>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="skincare">Skincare</button>
+        <button class="filter-btn" data-filter="nails">Nails</button>
+        <button class="filter-btn" data-filter="massage">Massage</button>
+        <button class="filter-btn" data-filter="makeup">Makeup</button>
+      </div>
+    </section>
+
     <!-- Gallery Section -->
     <section id="gallery">
-      <h2>Gallery</h2>
       <div class="gallery-container">
-        <img src="Images/adam-winger-FkAZqQJTbXM-unsplash.jpg" alt="Gallery Image 1">
-        <img src="Images/delfina-pan-8esvJeVUdes-unsplash.jpg" alt="Gallery Image 2">
-        <img src="Images/alireza-mirzabegi-3r5n5i8mzcw-unsplash.jpg" alt="Gallery Image 3">
-        <img src="Images/clay-banks-_3Sud4WPPYE-unsplash.jpg" alt="Gallery Image 4">
-        <img src="Images/hayley-kim-studios-sRSRuxkOuzI-unsplash.jpg" alt="Gallery Image 5">
-        <img src="Images/simon-humler--AakIaAPV0w-unsplash.jpg" alt="Gallery Image 6">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item" data-category="skincare">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Facial Treatment">
+          <div class="gallery-overlay">
+            <h3>Revitalizing Facial</h3>
+            <p>Deep cleansing and hydration for radiant skin</p>
+          </div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item" data-category="nails">
+          <img src="Images/kingsley-hemans-51-4BSipn7E-unsplash.jpg" alt="Nail Art">
+          <div class="gallery-overlay">
+            <h3>Artistic Nail Design</h3>
+            <p>Custom nail art with premium products</p>
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item" data-category="massage">
+          <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Relaxing Massage">
+          <div class="gallery-overlay">
+            <h3>Relaxation Massage</h3>
+            <p>Soothing techniques to melt away tension</p>
+          </div>
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item" data-category="makeup">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=1180&q=80" alt="Bridal Makeup">
+          <div class="gallery-overlay">
+            <h3>Bridal Makeup</h3>
+            <p>Elegant and long-lasting wedding day look</p>
+          </div>
+        </div>
+        <!-- Gallery Item 5 -->
+        <div class="gallery-item" data-category="skincare">
+          <img src="https://images.unsplash.com/photo-1596079890744-c1a0462d0975?ixlib=rb-4.0.3&auto=format&fit=crop&w=1171&q=80" alt="Anti-Aging Treatment">
+          <div class="gallery-overlay">
+            <h3>Anti-Aging Treatment</h3>
+            <p>Advanced techniques for youthful skin</p>
+          </div>
+        </div>
+        <!-- Gallery Item 6 -->
+        <div class="gallery-item" data-category="nails">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80" alt="Gel Manicure">
+          <div class="gallery-overlay">
+            <h3>Gel Manicure</h3>
+            <p>Long-lasting color with a glossy finish</p>
+          </div>
+        </div>
+        <!-- Gallery Item 7 -->
+        <div class="gallery-item" data-category="massage">
+          <img src="Images/kimiya-sabbaghan-o4OJfrmMC0o-unsplash.jpg" alt="Massage">
+          <div class="gallery-overlay">
+            <h3>Massage Therapy</h3>
+            <p>Healing scents for mind and body</p>
+          </div>
+        </div>
+        <!-- Gallery Item 8 -->
+        <div class="gallery-item" data-category="makeup">
+          <img src="Images/md-ishak-raman-S2Tyz1p0elM-unsplash.jpg" alt="Evening Makeup">
+          <div class="gallery-overlay">
+            <h3>Evening Glam</h3>
+            <p>Dramatic look for special occasions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-number">500+</div>
+          <div class="stat-text">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">50+</div>
+          <div class="stat-text">Beauty Treatments</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5</div>
+          <div class="stat-text">Expert Stylists</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">98%</div>
+          <div class="stat-text">Client Satisfaction</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Ready for Your Transformation?</h2>
+        <p>Book an appointment today and experience the M's Beauty Bar difference. Our experts are ready to help you look and feel your best.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="cta-btn primary">
+            <i class="fas fa-calendar-check"></i> Book Now
+          </a>
+          <a href="services.html" class="cta-btn secondary">
+            <i class="fas fa-concierge-bell"></i> View Services
+          </a>
+        </div>
       </div>
     </section>
   </main>
 
   <!-- Footer Section -->
-  <footer>
-    <div>
-      <p>&copy; 2024 M's Beauty Bar. All rights reserved.</p>
-    </div>
-  </footer>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> (011) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@msbeautybar.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 23 Jorrisen, Braamfontein, Johannesburg 2091</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="about.html">About Us</a>
+                 <a href="Testimonial.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+           <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.tiktok.com%2F%40msbeautybar_%3F_r%3D1%26_t%3DZS-91OL08HGqoM&data=05%7C02%7Cst10127770%40rcconnect.edu.za%7Cf601f448bd874bae207c08de2373786a%7Ce10c8f44f469448fbc0dd781288ff01b%7C0%7C0%7C638987176048164569%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=hJnNu3r8jWEco0dfJ87Vd8FE%2Fm%2BwDkDl%2BT4gSPxWj3Y%3D&reserved=0"><i class="fab fa-facebook-f"></i><img src="Images/alexander-shatov-I4p0FcjDBJI-unsplash.jpg" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 M's Beauty Bar. All rights reserved.</p>
+        </div>
+    </footer>
 
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
+
