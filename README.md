@@ -320,3 +320,61 @@ Added
 - Image gallery for salon portfolio
 - Newsletter subscription form
 - Enhanced responsive design for tablets and mobile
+
+19 November 2025
+​
+Mbalenhle Sikhosana​
+
+Added site map
+Added Java Script 
+Added testimonials 
+Added linkbox
+Added images
+Key Improvements Made:
+1. Enhanced Visual Design:
+  Added gradient backgrounds and subtle animations
+  Improved typography with better spacing and hierarchy
+  Added decorative elements like underlines and icons
+Enhanced card designs with hover effects
+2. JavaScript Functionality:
+  Mobile menu toggle
+  Auto-scrolling testimonials
+  Gallery lightbox with navigation
+  Keyboard support for lightbox (arrow keys and escape)
+  Smooth scrolling for anchor links
+3. New Sections Added:
+  Featured services on the homepage
+  Testimonials section with star ratings
+  Enhanced footer with contact info, links, and social media
+4. Lightbox Features:
+• Full-screen image viewing
+Navigation between images
+  Close button and click-outside to close
+  Keyboard navigation support
+5. Responsive Design:
+  Mobile-friendly navigation
+  Responsive layouts for all screen sizes
+  Touch-friendly interface elements
+1. Enhanced Visual Design:
+  Added a beautiful hero section with gradient overlay
+  Improved gallery layout with hover effects and animations
+  Added overlay with service details on image hover
+  Used a consistent color scheme that matches the brand
+2. Interactive Features:
+  Added filter buttons to categorize gallery items
+  Implemented a lightbox for full-size image viewing
+  Added navigation between images in the lightbox
+  Included keyboard navigation (arrow keys, escape)
+3. New Sections:
+  Added a statistics section to showcase achievements
+  Included a call-to-action section with booking options
+  Enhanced footer with more information
+4. Responsive Design:
+• Optimized for all screen sizes
+• Mobile-friendly navigation and layout
+• Touch-friendly interface elements
+5. Animations:
+• Fade-in animations for gallery items
+Hover effects with image scaling
+  Smooth transitions for all interactive elements
+Changed colour scheme
